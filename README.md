@@ -32,11 +32,11 @@ The purpose of the HTML markup is to give meaning to the content and help comput
 
 2. Semantic Structure  
 What are Sematic Elements? --- A semantic element clearly describes its meaning to both the browser and the developer.
-        Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its  content.
-Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
+        Examples of semantic elements: <!--<form>, <table>, and <article> - Clearly defines its  content.
+Many web sites contain HTML code like: <!--<div id="nav"> <div class="header"> <div id="footer"> -->to indicate navigation, header, and footer.
 In HTML there are some semantic elements that can be used to define different parts of a web page:  
 
-•	<article>
+<!--•	<article>
 •	<aside>
 •	<details>
 •	<figcation>
@@ -76,13 +76,14 @@ e.g
 •	Images 
 •	Style sheets
 •	JavaScripts
-
+<!--
 <!DOCTYPE html>
 <html>
 <body>
 
 <h2>Using a Full URL File Path</h2>
-<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" style="width:300px">
+<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" style="width:300px"> 
 
 </body>
 </html>
+-->
