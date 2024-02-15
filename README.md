@@ -36,22 +36,22 @@ What are Sematic Elements? --- A semantic element clearly describes its meaning 
 Many web sites contain HTML code like: <!--<div id="nav"> <div class="header"> <div id="footer"> -->to indicate navigation, header, and footer.
 In HTML there are some semantic elements that can be used to define different parts of a web page:  
 
-<!--•	<article>
-•	<aside>
-•	<details>
-•	<figcation>
-•	<figure>
-•	<footer>
-•	<header>
-•	<main>
-•	<mark>
-•	<nav>
-•	<section>
-•	<summary>
-•	<time>
+•	article
+•	aside
+•	details>
+•   figcation>
+•	figure>
+•	footer>
+•	 header>
+•	main>
+•	mark>
+•	nav>
+•	section>
+•	summary>
+•	time>
 
-HTML <SECTION> ELEMENT
-The <section> element defines a section in a document.
+HTML SECTION ELEMENT
+The section> element defines a section in a document.
 A section is a thematic grouping of content, typical with a heading.
 e.g
 •	Chapters
@@ -69,21 +69,20 @@ This includes navigation bars, menus packed with options and we always see these
 HTML URL PATHWAYS
 What is html file paths?
 A file path describes the location of a web site in a site’s folder structure.
-e.g  <img src="picture.jpg">  = The "picture.jpg" file is located in the same folder as the current page.
+e.g  img src="picture.jpg">  = The "picture.jpg" file is located in the same folder as the current page.
 File paths are used when linking to external files. 
 e.g
 •	Web pages 
 •	Images 
 •	Style sheets
 •	JavaScripts
-<!--
-<!DOCTYPE html>
-<html>
-<body>
 
-<h2>Using a Full URL File Path</h2>
-<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" style="width:300px"> 
+DOCTYPE html>
+html>
+body>
 
-</body>
-</html>
--->
+h2>Using a Full URL File Path</h2>
+img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" style="width:300px"> 
+
+/body>
+/html>
